@@ -35,7 +35,7 @@ int main(void)
 	double d;
 	for(auto it = m.begin(); it != m.end(); it++)
 	{
-		cout << it->second << endl;
+		
 		d = (it->second / n) * 100.0;
 		cout << it->first << " "  << d << '\n';
 	}
