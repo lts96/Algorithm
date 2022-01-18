@@ -1,6 +1,8 @@
 import java.util.*;
 public class Main {
-	
+	// 이분 탐색 문제
+	// 1 + 2 + .. m 을 더한 값이 n이하로 가능할때 최대 m값을 찾는 파라메트릭 서치 문제
+	// 근데 그냥 m(m+1)/2 <= n으로 하면 long 넘어가므로 아래 식으로 바꿔서 비교
 	public static long solve(long n) {
 		long l = 1,r = n,m,ans = 0;
 		while(l <= r)
