@@ -15,7 +15,8 @@ class pair implements Comparable<pair>{
 	}
 	
 }
-
+// 다익스트라 문제 
+// 경로가 4방향이라서 dp로는 안됨 
 class Solution {
 	static int n, m, k, ans;
 	static int arr[][] = new int[101][101];
