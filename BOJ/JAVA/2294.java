@@ -12,9 +12,9 @@ public class Main {
 	
 	static ArrayList<Integer> arr = new ArrayList<Integer>();
 	// 점화식  dp[k] = dp[k - 동전 비용] 중에서 제일 작은 거 + 1
-  // 시간 초과 이유 : 내가 ret을 초기화 한 값이 cache의 초기 상태값이랑 같아서 똑같은 재귀 구문이 반복되는 케이스가 발생
-  // 틀린 이유 : ans가 -1 출력하는 조건 잘못 설정함
-  // 항상 top down dp에선 정답을 1번만 갱신하고 넘어가야한다는 걸 기억하자 
+  	// 시간 초과 이유 : 내가 ret을 초기화 한 값이 cache의 초기 상태값이랑 같아서 똑같은 재귀 구문이 반복되는 케이스가 발생
+  	// 틀린 이유 : ans가 -1 출력하는 조건 잘못 설정함
+  	// 항상 top down dp에선 정답을 1번만 갱신하고 넘어가야한다는 걸 기억하자 
 	static int dp(int sum)
 	{
 		if (cache[sum] != inf)
