@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// 백준 영역 구하기 
 // 간단한 bfs 응용 문제 
 public class Main {
 	static int n,m,k;
