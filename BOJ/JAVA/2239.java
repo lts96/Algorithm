@@ -18,7 +18,6 @@ public class Main {
 			System.out.println();
 		}
 	}
-	
 	static void find_num(int cnt[] , int x, int y)
 	{
 		for (int i=0; i<9; i++)
