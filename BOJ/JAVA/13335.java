@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+// 백준 트럭
 // 큐를 사용해서 트럭을 하나씩 집어넣고 빼는 구현 문제 
 // 중요한건 먼저 앞에서 빼고 그 다음에 넣어야 한다는것 
 
