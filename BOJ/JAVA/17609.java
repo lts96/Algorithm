@@ -5,7 +5,8 @@ public class Main {
 	
 	static int n, k, ans;
 	
-  // 문자열, 투포인터?
+	// 백준  회문 
+  	// 문자열, 투포인터?
 	// 회문일때 -1 리턴 
 	static int check1(String s)
 	{
