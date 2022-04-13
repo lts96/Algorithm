@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-
+// 백준 예산
 public class Main {
 	
 	static int n,m, ans, num;
