@@ -2,8 +2,9 @@ import java.util.*;
 public class Main {
 	static int MAX = 100010;
 	static int INF = 2000000010;
-  
-  // 투포인터 사용해서 차이가 m이상인 조합만 찾아내는 문제
+  	
+	// 백준 수 고르기 
+  	// 투포인터 사용해서 차이가 m이상인 조합만 찾아내는 문제
   
 	public static void main(String[] args) {
 		long arr[] = new long[MAX];
