@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// 백준 수들의 합5
 // 두포인터 + 간단한 수학 문제
 
 public class Main {
