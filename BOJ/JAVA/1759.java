@@ -1,4 +1,6 @@
 import java.util.*;
+
+// 백준 암호 만들기 
 // 배열 정렬에서 인덱스 실수해서 틀림
 // 자바를 좀더 연습하자 
 public class Main {
