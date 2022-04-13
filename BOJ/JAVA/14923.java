@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// 백준 미로 탈출 
 class pair {
 	int first, second, third, fourth;
 	pair(int x, int y, int z, int w){
